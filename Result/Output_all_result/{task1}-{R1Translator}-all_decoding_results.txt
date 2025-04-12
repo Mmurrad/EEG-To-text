@@ -1,0 +1,2 @@
+target string: Everything its title implies, a standard-issue crime drama spat out from the Tinseltown assembly line.
+predicted string with tf:  is been implies, including good ofissue, novel. with of the 1950seltown ghetto line.
