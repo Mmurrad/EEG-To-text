@@ -309,13 +309,13 @@ if __name__ == '__main__':
         with open(dataset_path_task2, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
 
-        dataset_path_task3 = '/home/student/code/EEG-Code/Data/pickle_file/task2-TSR-2.0-dataset.pickle' 
+        dataset_path_task3 = '/home/student/code/EEG-Code/Data/pickle_file/task3-TSR-dataset.pickle' 
         with open(dataset_path_task3, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
 
-        dataset_path_task2_v2 = '/home/student/code/EEG-Code/Data/pickle_file/task1-NR-2.0-dataset.pickle' 
-        with open(dataset_path_task2_v2, 'rb') as handle:
-            whole_dataset_dicts.append(pickle.load(handle))
+        #dataset_path_task2_v2 = '/home/student/code/EEG-Code/Data/pickle_file/task2-TSR-2.0-dataset.pickle' 
+        #with open(dataset_path_task2_v2, 'rb') as handle:
+        #    whole_dataset_dicts.append(pickle.load(handle))
 
         print()
         for key in whole_dataset_dicts[0]:
