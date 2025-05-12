@@ -231,14 +231,14 @@ if __name__ == '__main__':
         dataset_path_task2 = '/home/student/code/EEG-Code/Data/pickle_file/task2-NR-dataset.pickle' 
         with open(dataset_path_task2, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
-    if 'task3v3' in task_name:
+    if 'task3v1' in task_name:
         dataset_path_task3 = '/home/student/code/EEG-Code/Data/pickle_file/task3-TSR-dataset.pickle' 
         with open(dataset_path_task3, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
-    #if 'taskTSRv2' in task_name:
-    #   dataset_path_taskNRv2 = '/home/student/code/EEG-Code/Data/pickle_file/ZuCo_V2/task2-TSR-2.0-dataset.pickle' 
-    #   with open(dataset_path_taskNRv2, 'rb') as handle:
-    #       whole_dataset_dicts.append(pickle.load(handle))
+    if 'taskTSRv2' in task_name:
+       dataset_path_taskNRv2 = '/home/student/code/EEG-Code/Data/pickle_file/ZuCo_V2/task2-TSR-2.0-dataset.pickle' 
+       with open(dataset_path_taskNRv2, 'rb') as handle:
+           whole_dataset_dicts.append(pickle.load(handle))
 
     print()
 
