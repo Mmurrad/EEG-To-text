@@ -1,4 +1,4 @@
-#EEG-to-Text Translation: A Model for Deciphering Human Brain Activity 
+# EEG-to-Text Translation: A Model for Deciphering Human Brain Activity 
 
 
 
