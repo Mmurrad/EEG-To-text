@@ -19,13 +19,30 @@ The implementation follows a pipeline starting with raw EEG data preprocessing (
 
 ![R1Translator model architecture and training principle.](figures/EEG_methodology.jpg)
 
-*Caption: R1Translator model architecture and training principle.
+* Caption: R1Translator model architecture and training principle.
 
 
 ## Result
 
 ![Model comparison](figures/Model_comaparison.png)
 
-*Caption: Evaluation of EEG-to-Text Decoding Performance on the ZuCo Dataset Using Reading
+* Caption: Evaluation of EEG-to-Text Decoding Performance on the ZuCo Dataset Using Reading
 task SR V1, NR V1 and TSR V1: Results with and without Teaching Force (w/tf) During Model
 Evaluation
+
+
+## Acknowledgements
+
+The core code structure implemented in this project is based on the work presented in the following research article:
+
+* **[Are EEG-to-Text Models Working?]**
+    * Author(s): [Hyejeong Jo, Yiqian Yang, Juhyeok Han, Yiqun Duan, Hui Xiong, Won Hee Lee]
+    * Link: [https://arxiv.org/abs/2405.06459]
+
+We are grateful for their foundational work which inspired this implementation.
+
+*(Optional: Add if you used their code directly)*
+* The original codebase (if applicable) can be found here: [https://github.com/NeuSpeech/EEG-To-Text?tab=readme-ov-file]
+
+*(Optional: Add other acknowledgements - e.g., dataset creators, funding sources)*
+* This work utilized the ZuCo dataset. We thank the dataset creators.
