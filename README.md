@@ -35,14 +35,12 @@ Evaluation
 
 The core code structure implemented in this project is based on the work presented in the following research article:
 
-* **[Are EEG-to-Text Models Working?]**
-    * Author(s): [Hyejeong Jo, Yiqian Yang, Juhyeok Han, Yiqun Duan, Hui Xiong, Won Hee Lee]
-    * Link: [https://arxiv.org/abs/2405.06459]
+* **Are EEG-to-Text Models Working?**
+    * Author(s): Hyejeong Jo, Yiqian Yang, Juhyeok Han, Yiqun Duan, Hui Xiong, Won Hee Lee
+    * Link: https://arxiv.org/abs/2405.06459
 
 We are grateful for their foundational work which inspired this implementation.
 
-*(Optional: Add if you used their code directly)*
-* The original codebase (if applicable) can be found here: [https://github.com/NeuSpeech/EEG-To-Text?tab=readme-ov-file]
+* The original codebase can be found here: https://github.com/NeuSpeech/EEG-To-Text?tab=readme-ov-file
 
-*(Optional: Add other acknowledgements - e.g., dataset creators, funding sources)*
 * This work utilized the ZuCo dataset. We thank the dataset creators.
