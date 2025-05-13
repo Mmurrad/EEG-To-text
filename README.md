@@ -1,6 +1,6 @@
 #EEG-to-Text Translation: A Model for Deciphering Human Brain Activity 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) This repository contains the code and resources for the **R1 Translator** model, designed for decoding human brain activity (EEG signals) into text, as presented in the paper *"EEG-to-Text Translation: A Model for Deciphering Human Brain Activity"*.
+
 
 ## Overview
 
