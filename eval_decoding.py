@@ -295,22 +295,22 @@ if __name__ == '__main__':
 
     ''' set up dataloader '''
     whole_dataset_dicts = []
-    if 'task1v1' in task_name:
+    if 'task1' in task_name:
         dataset_path_task1 = '/home/student/code/EEG-Code/Data/pickle_file/task1-SR-dataset.pickle' 
         with open(dataset_path_task1, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
-    if 'task2v1' in task_name:
+    if 'task2' in task_name:
         dataset_path_task2 = '/home/student/code/EEG-Code/Data/pickle_file/task2-NR-dataset.pickle' 
         with open(dataset_path_task2, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
-    if 'task3v1' in task_name:
-        dataset_path_task3 = '/home/student/code/EEG-Code/Data/pickle_file/task3-TSR-dataset.pickle' 
+    if 'task3' in task_name:
+        dataset_path_task3 = '/home/student/code/EEG-Code/Data/pickle_file/ZuCo_V2/task2-TSR-2.0-dataset.pickle' 
         with open(dataset_path_task3, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
-    if 'taskTSRv2' in task_name:
-        dataset_path_taskNRv2 = '/home/student/code/EEG-Code/Data/pickle_file/ZuCo_V2/task2-TSR-2.0-dataset.pickle' 
-        with open(dataset_path_taskNRv2, 'rb') as handle:
-            whole_dataset_dicts.append(pickle.load(handle))
+        #if 'task3' in task_name:
+        #dataset_path_taskNRv2 = '/home/student/code/EEG-Code/Data/pickle_file/ZuCo_V2/task2-TSR-2.0-dataset.pickle' 
+        #with open(dataset_path_taskNRv2, 'rb') as handle:
+        #  whole_dataset_dicts.append(pickle.load(handle))
     print()
     
     if model_name in ['BrainTranslator','BrainTranslatorNaive','R1Translator']:

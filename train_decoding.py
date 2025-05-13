@@ -236,7 +236,7 @@ if __name__ == '__main__':
         with open(dataset_path_task3, 'rb') as handle:
             whole_dataset_dicts.append(pickle.load(handle))
     if 'taskTSRv2' in task_name:
-       dataset_path_taskNRv2 = '/home/student/code/EEG-Code/Data/pickle_file/ZuCo_V2/task2-TSR-2.0-dataset.pickle' 
+       dataset_path_taskNRv2 = '/home/student/code/EEG-Code/Data/pickle_file/task2-TSR-2.0-dataset.pickle' 
        with open(dataset_path_taskNRv2, 'rb') as handle:
            whole_dataset_dicts.append(pickle.load(handle))
 

@@ -17,7 +17,7 @@ The project aims to bridge the gap between the human brain and language processi
 
 The implementation follows a pipeline starting with raw EEG data preprocessing (filtering, artifact removal, epoching). Features are then extracted from the cleaned signals and stored in pickle files alongside the corresponding text data. These prepared files are used to train and evaluate the R1 Translator model for the task of text generation from EEG features, with performance measured by metrics like BLEU, WER, CER, and ROUGE.
 
-![R1Translator model architecture and training principle.](figures/EEG methodology.drawio (1).jpg)
+![R1Translator model architecture and training principle.](figures/EEG methodology.jpg)
 *Caption: R1Translator model architecture and training principle.
 
 
